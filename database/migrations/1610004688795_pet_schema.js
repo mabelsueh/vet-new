@@ -17,8 +17,6 @@ class PetSchema extends Schema {
       table.integer('breed_id').unsigned().notNullable()
       table.foreign('breed_id').references('breeds_id')
 
-
-
       table.timestamps()
     })
   }
